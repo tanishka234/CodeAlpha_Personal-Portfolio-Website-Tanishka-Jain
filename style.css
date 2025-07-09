@@ -1,0 +1,393 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background: #ffffff; /* Changed to white background */
+  color: #02214d;
+}
+
+/* HEADER */
+header {
+  background: #011737;
+  padding: 15px 30px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* GENERAL SECTION STYLING */
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* HERO SECTION */
+.hero {
+  padding: 80px 20px;
+  background: #011d3a;
+  color: #ffffff;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero h1 span {
+  color: #0dcaf0;
+}
+
+.profile-img {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #0dcaf0;
+  box-shadow: 0 0 20px rgba(13, 202, 240, 0.3);
+  margin-top: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 12px 28px;
+  background: #0dcaf0;
+  color: #02214d;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #0bb7da;
+}
+
+/* ABOUT SECTION */
+section#about {
+  background-image: url('https://www.transparenttextures.com/patterns/symphony.png');
+  background-color: #f2f2f2;
+  background-repeat: repeat;
+}
+
+#about h2 {
+  font-size: 48px;
+  color: #011737;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 20px;
+  color: #333;
+  line-height: 1.8;
+  max-width: 850px;
+  margin: auto;
+}
+/*education*/
+
+#education {
+  padding: 60px 20px;
+  background-color: #f8f9fa;
+  color: #02214d;
+  text-align: center;
+}
+
+#education h2 {
+  font-size: 60px;
+  margin-bottom: 40px;
+}
+
+.education-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.education-card {
+  background: #ffffff;
+  border-left: 6px solid #0dcaf0;
+  border-radius: 8px;
+  padding: 25px;
+  width: 320px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.education-card h3 {
+  margin-top: 0;
+  color: #011737;
+}
+
+.education-card p {
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+/*skill*/
+
+section#skills {
+  background-image: url('https://www.transparenttextures.com/patterns/symphony.png');
+  background-color: #f2f2f2;
+  background-repeat: repeat;
+}
+
+#skills {
+  padding: 60px 20px;
+  background-color: #f2f9ff;
+  text-align: center;
+}
+
+#skills h2 {
+  font-size: 48px;
+  color: #011737;
+  margin-bottom: 30px;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.skill-box {
+  background: #0dcaf0;
+  color: #011737;
+  padding: 12px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 16px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* PROJECTS */
+#projects h2 {
+  font-size: 48px;
+  color: #011737;
+  margin-bottom: 20px;
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.project-card {
+  background: #eaf6fc;
+  border: 2px solid #0dcaf0;
+  border-radius: 10px;
+  width: 330px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.project-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #011737;
+}
+
+/* FOOTER */
+footer {
+  background: #011737;
+  text-align: center;
+  padding: 30px 20px;
+  color: #f8f9fa;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: #0dcaf0;
+  font-size: 24px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #ffffff;
+}
+
+footer p {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #d0d0d0;
+}
+
+#contact h2 {
+  font-size: 48px;
+  color: #011737;
+  margin-bottom: 20px;
+}
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-row {
+  display: flex;
+  gap: 10px;
+}
+
+.form-row input {
+  flex: 1;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #0dcaf0;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #011d3a;
+  color: #fff;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #ccc;
+}
+
+section#contact {
+  background-image: url('https://www.transparenttextures.com/patterns/symphony.png');
+  background-color: #f2f2f2;
+  background-repeat: repeat;
+}
+
+
+.contact-form button {
+  background: #0dcaf0;
+  color: #011737;
+  padding: 10px 20px;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: #0bb1d6;
+}
+
+/* 🌐 Mobile-Friendly Design */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .hero p {
+    font-size: 18px;
+  }
+
+  .profile-img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .project-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-card {
+    width: 90%;
+  }
+
+  .education-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .education-card {
+    width: 90%;
+  }
+
+  .form-row {
+    flex-direction: column;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 14px;
+  }
+
+  .btn {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+
+  #about p,
+  #education p,
+  #projects p,
+  #contact p {
+    font-size: 16px;
+  }
+
+  footer p {
+    font-size: 12px;
+  }
+}
+
