@@ -5,7 +5,7 @@ This is a **Personal Portfolio Website** developed as part of my **Frontend Deve
 ---
 
 ## 🔗 Live Website  
-🌐 [View Portfolio Live](https://your-netlify-or-github-pages-link)
+🌐 https://tanishka234.github.io/CodeAlpha_Personal-Portfolio-Website-Tanishka-Jain/
 
 ---
 
