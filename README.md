@@ -27,7 +27,10 @@ This is a **Personal Portfolio Website** developed as part of my **Frontend Deve
 ├── 4 IMAGE GALLERY.avif
 ├── SIMPLE CALCULATOR IMAGE ON TABLE.avif
 ├── NETFLIX ON LAPTOP.avif
+├── TanishkaJain_InternshalaResume.pdf
 ├── README.md
+
+TanishkaJain_InternshalaResume.pdf
 
 
 ---
